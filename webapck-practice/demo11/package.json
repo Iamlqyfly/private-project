@@ -1,0 +1,19 @@
+{
+  "name": "demo11",
+  "version": "1.0.0",
+  "description": "模块热更新需要 HotModuleReplacementPlugin 和 NamedModulesPlugin 这两个插件，并且顺序不能错。并且指定 devServer.hot 为 true",
+  "main": "app.js",
+  "scripts": {
+    "server": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}

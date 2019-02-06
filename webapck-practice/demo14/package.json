@@ -1,0 +1,17 @@
+{
+  "name": "demo14",
+  "version": "1.0.0",
+  "description": "改变app代码，vendor变化",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "vue": "^2.5.21",
+    "webpack": "^4.27.1"
+  }
+}

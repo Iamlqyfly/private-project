@@ -1,0 +1,11 @@
+$bgColor: red !default; //  !default , 用来设置默认值
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: $bgColor;
+}
